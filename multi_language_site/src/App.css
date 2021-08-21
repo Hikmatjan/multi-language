@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 20px; */
+    padding: 10px 20px;
+    background-color: crimson;
+}
+.header span {
+    color: #fff;
+}
+.header ul {
+    margin: auto 0;
+}
+.header ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: silver;
+    transition: color ease-in-out .3s;
+    font-size: 18px;
+}
+.header ul li a:hover {
+    color: #fff;
+}
